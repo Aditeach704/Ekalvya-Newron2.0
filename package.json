@@ -5,14 +5,14 @@
   "type": "module",
   "description": "Ekalvya AI workspace with chat history, Markdown formatting, speech playback, and Gemini-powered responses",
   "engines": {
-    "node": ">=20"
+    "node": ">=20.0.0"
   },
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
   "dependencies": {
-    "@google/genai": "^1.0.0",
+    "@google/genai": "^2.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
